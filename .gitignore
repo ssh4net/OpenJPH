@@ -4,4 +4,5 @@ others/*
 lib/*
 
 .vscode
-build.sh
+/build
+/build_u

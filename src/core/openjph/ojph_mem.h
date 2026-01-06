@@ -48,6 +48,11 @@
 
 namespace ojph {
 
+  extern "C" {
+    void* ojph_aligned_malloc(size_t alignment, size_t size);
+    void ojph_aligned_free(void* pointer);
+  }
+
   /////////////////////////////////////////////////////////////////////////////
   class mem_fixed_allocator
   {
